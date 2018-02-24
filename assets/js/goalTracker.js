@@ -1,7 +1,9 @@
 //Color circles
 
+
+
 $("li").click(function(){
-  $(this).toggleClass("completed");
+  $(this).find('div').toggleClass("completed");
   // if($(this).css("color") === "rgb(128, 128, 128)")
   //   {
   //   $(this).css("color", "Black")
