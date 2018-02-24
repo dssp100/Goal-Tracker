@@ -57,6 +57,12 @@ body {
   border-right: 3px solid Black;
   border-bottom: 3px solid Black;
 }
+.topLeft input{
+  background-color: rgba(204, 204, 204, 1.000);
+  border: none;
+  text-align: center;
+  color: gray;
+}
 
 .topUpperRight {
   grid-area: topUpperRight;
@@ -91,6 +97,8 @@ body {
   text-align: center;
   align-items: center;
   border-bottom: 3px solid Black;
+  font-size: 20px;
+  color: white;
 }
 .bottom {
   grid-area: bottom;
@@ -99,6 +107,7 @@ body {
   color: rgba(248, 153, 2, 1.000);
   text-align: center;
   align-items: center;
+
 }
 /* circles of bottomRight */
 
@@ -110,4 +119,7 @@ body {
  -moz-border-radius:75px;
  -webkit-border-radius: 75px;
  margin: auto;
+}
+.completed {
+  color: gray
 }
