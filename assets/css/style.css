@@ -23,6 +23,10 @@ body {
 
 /* Grid Componects*/
 }
+
+.flex-container{
+  /*display: flex;*/
+}
 .navbar {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -91,14 +95,16 @@ body {
 
 }
 .bottomRight {
+
   grid-area: bottomRight;
   display: grid;
   grid-template-columns: repeat(31, 1fr);
-  text-align: center;
-  align-items: center;
+  /* text-align: center;
+  align-items: center; */
   border-bottom: 3px solid Black;
   font-size: 20px;
   color: white;
+
 }
 .bottom {
   grid-area: bottom;
@@ -111,6 +117,7 @@ body {
 /* circles of bottomRight */
 
 .circle {
+
  background-color: rgba(255, 255, 255, 1.000);
  border: 3px solid #333;
  height: 12px;
@@ -126,4 +133,8 @@ body {
 ul {
   list-style-type: none;
   padding: 0;
+}
+section.bottomRight ul {
+  display: inline-flex;
+
 }
